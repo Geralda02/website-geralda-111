@@ -113,12 +113,66 @@ var polygon = L.polygon([
     [-5.358077, 105.315440],
     [-5.358079, 105.315245]
 ]).addTo(map);
+<!-- POLIGON BANGUNAN GEDUNG C dan GEDUNG D -->
+var polygon = L.polygon([
+    [-5.358384, 105.313266],
+    [-5.358377, 105.313447],
+    [-5.358344, 105.313443],
+    [-5.358359, 105.314091],
+    [-5.358496, 105.313950],
+    [-5.358494, 105.313567],
+    [-5.358926, 105.313571],
+    [-5.359111, 105.313376],
+    [-5.358533, 105.313389],
+    [-5.358536, 105.313267]
+]).addTo(map);
+<!-- POLIGON BANGUNAN  GEDUNG E -->
+var polygon = L.polygon([
+    [-5.359799, 105.315831],
+    [-5.359957, 105.315831],
+    [-5.359957, 105.315571],
+    [-5.360474, 105.315571],
+    [-5.360474, 105.315401],
+    [-5.359635, 105.315401],
+    [-5.359635, 105.315571],
+    [-5.359799, 105.315571]
+]).addTo(map);
 <!-- POLIGON BANGUNAN  GEDUNG LABTEK 1 -->
 var polygon = L.polygon([
     [-5.360215, 105.310000],
     [-5.360426, 105.309996],
     [-5.360426, 105.310507],
     [-5.360198, 105.310510]
+]).addTo(map);
+<!-- POLIGON BANGUNAN  POLIKLINIK ITERA -->
+var polygon = L.polygon([
+    [-5.357662, 105.315927],
+    [ -5.357660, 105.315950],
+    [ -5.357687, 105.315956],
+    [ -5.357687, 105.316005],
+    [ -5.357794, 105.316013],
+    [ -5.357799, 105.315925]
+]).addTo(map);
+<!-- POLIGON BANGUNAN  GEDUNG ASRAMA TB1 -->
+var polygon = L.polygon([
+    [-5.358361, 105.317140],
+    [-5.358360, 105.317644],
+    [-5.358547, 105.317645],
+    [-5.358546, 105.317142]
+]).addTo(map);
+<!-- POLIGON BANGUNAN  GEDUNG ASRAMA TB3 -->
+var polygon = L.polygon([
+    [-5.359095, 105.318720],
+    [-5.359095, 105.319304],
+    [-5.359231, 105.319311],
+    [-5.359231, 105.318728]
+]).addTo(map);
+<!-- POLIGON BANGUNAN  GEDUNG ASRAMA TB4 -->
+var polygon = L.polygon([
+    [-5.359075, 105.317113],
+    [-5.359076, 105.317709],
+    [-5.359207, 105.317721],
+    [-5.359197, 105.317112]
 ]).addTo(map);
 <!-- MENAMPILKAN NAMA GEDUNG GKU 1 -->
     var GKU1 = L.marker([-5.360906,105.310462]);
@@ -181,19 +235,19 @@ var polygon = L.polygon([
     var namaEMBUNGE = EMBUNGE.bindPopup("EMBUNG E").openPopup()
     namaEMBUNGE.addTo(map);
     <!-- MENAMPILKAN NAMA ASRAMA TB1 -->
-    var ASRAMATB1 = L.marker([-5.358875,105.308250]);
+    var ASRAMATB1 = L.marker([-5.358440,105.317493]);
     var namaASRAMATB1 = ASRAMATB1.bindPopup("ASRAMA TB1").openPopup()
     namaASRAMATB1.addTo(map);
     <!-- MENAMPILKAN NAMA ASRAMA TB3 -->
-    var ASRAMATB3 = L.marker([-5.359344,105.313735]);
+    var ASRAMATB3 = L.marker([-5.359150,105.319132]);
     var namaASRAMATB3 = ASRAMATB3.bindPopup("ASRAMA TB3").openPopup()
     namaASRAMATB3.addTo(map);
     <!-- MENAMPILKAN NAMA ASRAMA TB4 -->
-    var ASRAMATB4 = L.marker([-5.360149,105.320761]);
+    var ASRAMATB4 = L.marker([-5.359158,105.317433]);
     var namaASRAMATB4 = ASRAMATB4.bindPopup("ASRAMA TB4").openPopup()
     namaASRAMATB4.addTo(map);
     <!-- MENAMPILKAN NAMA ASRAMA TB5 -->
-    var ASRAMATB5 = L.marker([-5.365299,105.316622]);
+    var ASRAMATB5 = L.marker([-5.358478,105.318462]);
     var namaASRAMATB5 = ASRAMATB5.bindPopup("ASRAMA TB5").openPopup()
     namaASRAMATB5.addTo(map);
     var baseMaps = {
